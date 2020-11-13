@@ -9,6 +9,12 @@
         </processorPath>
         <module name="flux-client-test.main" />
       </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="poc" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flux-test.main" target="11" />
